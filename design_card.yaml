@@ -1,0 +1,66 @@
+# Blank reporting template transcribed from Appendix A, Listing 1.
+# parent_type: backbone | trajectory
+# computational_status: completed | early_terminated | interrupted | rejected | unknown
+# experimental_status: untested | tested_positive | tested_negative | inconclusive | missing
+study:
+  generator: null
+  version_or_commit: null
+  checkpoint: null
+conditioning:
+  target: null
+  pdb_id: null
+  chain: null
+  hotspot_or_motif: null
+  length_range: null
+generation:
+  budget: null
+  sampling_steps: null
+  random_seed_policy: null
+  noise_or_temperature: null
+sequence_design:
+  model: null
+  version: null
+  sequences_per_parent: null
+  temperature: null
+structure_prediction:
+  predictor: null
+  version: null
+  recycles: null
+  initial_guess: null
+filtering:
+  metrics: null
+  thresholds: null
+  threshold_provenance: null
+attrition:
+  generated: null
+  sequence_designed: null
+  fully_scored: null
+  accepted: null
+  experimentally_tested: null
+  experimentally_successful: null
+compute:
+  hardware: null
+  gpu_hours: null
+  stages_included: null
+reproducibility:
+  code_repository: null
+  data_repository: null
+  persistent_identifier: null
+candidate_traceability:
+  parent_id: null
+  parent_type: null
+  sequence_id: null
+  parent_sequence_mapping_file: null
+  stage_reached: null
+  computational_status: null
+  rejection_stage: null
+  rejection_criterion: null
+experimental_tracking:
+  sequence_id: null
+  assay_name: null
+  assay_endpoint: null
+  experimental_status: null
+  experimental_value: null
+  experimental_unit: null
+  detection_limit: null
+  censoring_status: null

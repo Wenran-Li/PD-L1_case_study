@@ -1,0 +1,90 @@
+checklist:
+- reporting_item: Generator identity
+  tier: Required
+  what_should_be_reported: Model name, implementation, version or commit
+  study_specific_response: null
+- reporting_item: Model checkpoint
+  tier: Required
+  what_should_be_reported: Exact trained checkpoint used
+  study_specific_response: null
+- reporting_item: Target / conditioning input
+  tier: Required
+  what_should_be_reported: Target structure, chain, hotspot/motif/ligand, length or symmetry constraints
+  study_specific_response: null
+- reporting_item: Generation budget
+  tier: Required
+  what_should_be_reported: Number of generated backbones, trajectories, or sequence–structure samples before filtering
+  study_specific_response: null
+- reporting_item: Sampling protocol
+  tier: Required
+  what_should_be_reported: Steps, temperature, noise scales, recycles, random-seed procedure
+  study_specific_response: null
+- reporting_item: Sequence-design procedure
+  tier: Required
+  what_should_be_reported: Model/version, sequences per parent, temperature, backbone noise
+  study_specific_response: null
+- reporting_item: Structure-prediction procedure
+  tier: Required
+  what_should_be_reported: Predictor/model/version, recycles, initial-guess use, number of predictions
+  study_specific_response: null
+- reporting_item: Computational filters
+  tier: Required
+  what_should_be_reported: All selection metrics
+  study_specific_response: null
+- reporting_item: Filtering thresholds
+  tier: Required
+  what_should_be_reported: Exact cutoff for each filter and provenance
+  study_specific_response: null
+- reporting_item: Candidate attrition
+  tier: Required
+  what_should_be_reported: Number entering and surviving each major stage
+  study_specific_response: null
+- reporting_item: Denominator definition
+  tier: Required
+  what_should_be_reported: Numerator and denominator for every success/retention rate
+  study_specific_response: null
+- reporting_item: Experimental population
+  tier: Required if experimental
+  what_should_be_reported: Numbers synthesized, expressed, biophysically tested, structurally tested, functionally tested
+  study_specific_response: null
+- reporting_item: Negative outcomes
+  tier: Required
+  what_should_be_reported: Failed candidates and stage/criterion of failure
+  study_specific_response: null
+- reporting_item: Computational budget
+  tier: Required for comparative benchmarks
+  what_should_be_reported: Hardware, GPU-hours, and included stages
+  study_specific_response: null
+- reporting_item: Evaluator dependence
+  tier: Recommended
+  what_should_be_reported: Alternative predictors/scorers or explicit statement of single evaluator
+  study_specific_response: null
+- reporting_item: Threshold sensitivity
+  tier: Recommended
+  what_should_be_reported: Retention or ranking across cutoff ranges
+  study_specific_response: null
+- reporting_item: Training-data overlap / leakage control
+  tier: Recommended
+  what_should_be_reported: Training cutoff, target provenance, sequence/structure similarity checks
+  study_specific_response: null
+- reporting_item: Uncertainty / replicate information
+  tier: Recommended
+  what_should_be_reported: Variation across seeds, parent designs, sequences, predictors or experiments
+  study_specific_response: null
+- reporting_item: Code and configuration availability
+  tier: Required
+  what_should_be_reported: Scripts, configuration files, environment/software versions
+  study_specific_response: null
+- reporting_item: Data provenance and persistent identifier
+  tier: Required
+  what_should_be_reported: Raw/processed data, structures, logs, repository URL, DOI
+  study_specific_response: null
+- reporting_item: Machine-readable design card
+  tier: Recommended
+  what_should_be_reported: YAML/CSV version of checklist
+  study_specific_response: null
+- reporting_item: Parent–sequence traceability
+  tier: Required
+  what_should_be_reported: Parent backbone or trajectory identifier; derived sequence identifier; stage reached; computational
+    execution/filtering status; experimental testing status
+  study_specific_response: null
